@@ -1,0 +1,52 @@
+export default function Table() {
+    return (
+        <>
+        <table className="table">
+            <thead className="thead">
+            <th>Task</th>
+            <th>ID</th>
+            <th>Assigned date</th>
+            <th>Due date</th>
+            <th>Current Status</th>
+            <th>View Status</th>
+            <th>Approval</th>
+            <th>Actions</th>
+        
+            </thead>
+            <tbody className="tbody">
+               <tr>
+                <td>task1</td>
+                <td>IUBF</td>
+                <td>29-01-2022</td>
+                <td>29-02-2022</td>
+                <td>Ongoing</td>
+                <td>
+                    <button className="table-btn">View Task</button>
+                </td>
+                <td></td>
+                <td>
+                    <button className="table-btn">Delete Task</button>
+                </td>
+                </tr>
+
+                <tr>
+                <td>task2</td>
+                <td>IKFH</td>
+                <td>29-01-2022</td>
+                <td>29-02-2022</td>
+                <td>Completed</td>
+                <td>
+                    <button className="table-btn">View Task</button>
+                </td>
+                <td>Approved</td>
+                <td>
+                    <button className="table-btn">Delete Task</button>
+                </td>
+                </tr>
+                </tbody>
+        </table>
+        </>
+      )
+    
+     
+    }

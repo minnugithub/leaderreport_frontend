@@ -1,0 +1,97 @@
+body{
+    font-family:inherit;
+    margin:2rem;
+    
+}
+
+.card{  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border:1px solid #dadada;
+    text-align: center;
+    background-color: #f1f1f1;
+    width:100%;
+    margin-top: 25%;
+    margin-left: 75%;
+    margin-right: 50%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    
+ } 
+
+.card:hover{box-shadow: 5px 10px 20px 1px rgba(0,0,0,253)!important;}
+.title{text-align: center;
+
+}
+
+.card_btn:hover{
+    border-color: green;
+    color: green;
+    background-color: yellowgreen;
+}
+
+.dele-btn{
+    background-color: rgb(197, 107, 65);
+    color: white;
+    padding:1rem;
+    font-family: inherit;
+    font-weight:bold;
+    margin:1rem;
+    border:2px solid ;
+}
+
+.dele-btn:hover{
+    border-color: rgb(150, 21, 21);
+    color: rgb(253, 252, 252);
+    background-color: rgb(223, 142, 104);
+}
+.card_btn{
+    background-color: green;
+    color: white;
+    padding:1rem;
+    font-family: inherit;
+    font-weight:bold;
+    margin:1rem;
+    border:2px solid ;
+    
+}
+
+.card_title{
+    text-align: center;
+    padding: 1rem;
+}
+
+.card_email{
+    text-align: center;
+    padding: 1rem;
+}
+
+.card_id{
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    
+  }
+
+  .row {margin: 0 -5px;} 
+
+  .row:after { 
+     content: ""; 
+     display: table; 
+    clear: both; 
+   } 
+   @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+

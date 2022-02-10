@@ -1,0 +1,30 @@
+.table-btn{
+    background-color: rgba(97, 112, 97, 0.705);
+    color: white;
+    padding:auto;
+    font-family: inherit;
+    font-weight:bold;
+    margin:1rem;
+    border:2px solid ;
+}
+.table-btn:hover{
+    border-color: rgb(40, 48, 40);
+    color: rgb(244, 248, 244);
+    background-color: rgb(105, 112, 90);
+}
+
+.back-btn{
+    background-color: rgb(93, 124, 93);
+    color: white;
+    padding:auto;
+    font-family: inherit;
+    font-weight:bold;
+    margin:1rem;
+    border:2px solid ;
+    border-color: black;
+} 
+.back-btn:hover{
+    border-color: rgb(63, 73, 63);
+    color: rgb(215, 224, 215);
+    background-color: rgb(175, 180, 176);
+}
